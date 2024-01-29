@@ -1,5 +1,6 @@
 int leds[3] = {3,4,5};
 
+// LED lights on and off but it goes back
 void runback(int led[]) {
     int delayVal = 100;
     for (int i = 0; i < 3; i++){
@@ -16,6 +17,7 @@ void runback(int led[]) {
     }
 }
 
+// my own Traffic Lights simulation
 void traffic_lights(int led[]) {
   for (int i = 0; i < 3; i++){
     int delayVal;
@@ -31,6 +33,7 @@ void traffic_lights(int led[]) {
   }
 }
 
+// Christmas Lights pattern Alternate
 void christmas_lights(int led[]){
   for (int i = 0; i < 2; i++){
     int delayVal = 100;
